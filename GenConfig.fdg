@@ -25,9 +25,9 @@
       }
     },
     "Backend": {
-      "AspNet": true,
-      "AspNetCore": false,
-      "Java": false
+      "AspNet": false,
+      "AspNetCore": true,
+      "Java": true
     },
     "Docker": {
       "Dockerfile": true,
@@ -45,16 +45,16 @@
         "ConnectionString": "Id"
       },
       "PostgreSql": {
-        "DiffSql": true,
+        "DiffSql": false,
         "FullSql": true,
-        "LiquibaseSql": true,
-        "Security": true,
-        "AdminUser": true,
-        "ConnectionString": "Id"
+        "LiquibaseSql": false,
+        "Security": false,
+        "AdminUser": false,
+        "ConnectionString": ""
       },
       "ClickHouse": {
         "DiffSql": false,
-        "FullSql": false,
+        "FullSql": true,
         "ConnectionString": null
       },
       "Oracle": {
